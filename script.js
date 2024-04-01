@@ -6,8 +6,8 @@ $(document).ready(function() {
   const colors2 = ['#B9B4C7', '#E19898', '#E7AB79', '#D8E9A8', '#FEC260', '#E19898', '#bfbfbf', '#E7F6F2', '#EEEEEE', '#F5E8C7'];
   const borderColors = ['#0E8388', '#FF204E', '#CD1818', '#E3651D', '7F8487' , '03C988' ];
   const arrowColors = ['#AAAAAA', '#000000', '#AAAAAA', '#000000', '#000000', '#000000', '#000000', '#AAAAAA', '#AAAAAA', '#000000']; 
-  const touchStartX = 0;
-  const touchEndX = 0;
+  let touchStartX = 0;
+  let touchEndX = 0;
 
   // Touch events for touch sliding
   $('.carousel-container').on('touchstart', function(e) {
