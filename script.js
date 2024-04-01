@@ -5,7 +5,7 @@ $(document).ready(function() {
   const colors1 = ['#191919', '#E19898', '#180A0A', '#D8E9A8', '#FEC260', '#E19898', '#bfbfbf', '#040D12', '#000000', '#F5E8C7'];
   const colors2 = ['#B9B4C7', '#E19898', '#E7AB79', '#D8E9A8', '#FEC260', '#E19898', '#bfbfbf', '#E7F6F2', '#EEEEEE', '#F5E8C7'];
   const borderColors = ['#0E8388', '#FF204E', '#CD1818', '#E3651D', '7F8487' , '03C988' ];
-  const arrowColors = ['#AAAAAA', '#000000', '#AAAAAA', '#000000', '#000000', '#000000', '#000000', '#AAAAAA', '#AAAAAA', '#F5E8C7']; 
+  const arrowColors = ['#AAAAAA', '#000000', '#AAAAAA', '#000000', '#000000', '#000000', '#000000', '#AAAAAA', '#AAAAAA', '#000000']; 
   images.clone().appendTo(carouselSlide);
 
   let counter = 0; 
