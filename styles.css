@@ -154,32 +154,24 @@ button {
   .out-wrap{
     display: flex;
     justify-content: center;
-    width: 350px;
-    height: 280px;
   }
   
   /* Glowing Borders */
   .in-wrap{
     display:flex;
     background-color: #EEEEEE;
-    width: 350px;
-    height: 400px;
     justify-content: center;
     border: 1px solid #610C9F;
     transition: border-color 0.5s ease-in-out;
   }
   .wrapper {
     display: flex;
-    width: 350px;
-    height: 400px;
     justify-content: center;
     background-color:#191919;
   }
 
   .carousel-container {
-    max-width: 350px; /* Adjust width for mobile devices */
     border-width: 5px; /* Reduce border width for mobile devices */
-    height: 335px;
   }
   
   .carousel-slide img {
